@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(91, 97, 97);
+    /* overflow: hidden; */
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    animation: con 10s ease infinite alternate forwards;
+}
+.bulut1{
+    width: 200px;
+    height: 100px;
+    
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 200px;
+    left: -20px;
+    animation: bulut1 13s .5s ease-out infinite alternate   forwards;
+    opacity: 0; 
+}
+
+
+.aylana1{
+    width: 70px;
+    height: 70px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+ .aylana2{
+    width: 60px;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 30px;
+}
+.aylana3{
+    width: 70px;
+    height: 70px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 60px;
+
+}
+.aylana4{
+    width: 80px;
+    height: 80px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -3px;
+    right: 0px;
+
+}
+.aylana5{
+    width: 70px;
+    height: 70px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 60px;
+
+}
+.aylana6{
+    width: 60px;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: -0px;
+    right: 20px;
+
+}  
+
+
+
+.bulut2{
+    width: 200px;
+    height: 100px;
+    /* background: red; */
+    position: absolute;
+    top: 230px;
+    right: -20px;
+    animation: bulut2 14s 1s ease  infinite alternate  forwards;
+    opacity: 0;
+}
+.bulut3{
+    width: 200px;
+    height: 100px;
+    /* background: rgb(255, 17, 0); */
+    position: absolute;
+    top: 180px;
+    right: -20px;
+    animation: bulut3 23s 1.5s ease  infinite alternate  forwards;
+    opacity: 0;
+}
+.bulut4{
+    width: 200px;
+    height: 100px;
+    /* background: rgb(255, 17, 0); */
+    position: absolute;
+    top: 100px;
+    left: -20px;
+    animation: bulut4 27s 2s ease  infinite alternate  forwards;
+    opacity: 0;
+    
+}
+.star > div{
+    /* background: yellow; */
+    position: absolute;
+    animation: yulduz 10s ease infinite alternate forwards;
+    opacity: 1;
+}
+
+
+.yulduz{
+    font-size: 30px;
+    color: yellow;
+}
+
+.yulduz1{
+    /* width: 40px;
+    height: 40px; */
+    top: 100px;
+    left: 80px;
+}
+.yulduz2{
+    /* width: 30px;
+    height: 30px; */
+    top: 80px;
+    left: 320px;
+}
+.yulduz3{
+    /* width: 40px;
+    height: 40px; */
+    top: 150px;
+    left: 470px;
+}
+.yulduz4{
+    /* width: 25px;
+    height: 25px; */
+    top: 60px;
+    left: 550px;
+}
+.yulduz5{
+    /* width: 40px;
+    height: 40px; */
+    top: 100px;
+    left: 630px;
+}
+.yulduz6{
+    /* width: 40px;
+    height: 40px; */
+    top: 100px;
+    right: 80px;
+}
+.yulduz7{
+    /* width: 30px;
+    height: 30px; */
+    top: 80px;
+    right: 320px;
+}
+.yulduz8{
+    /* width: 40px;
+    height: 40px; */
+    top: 150px;
+    right: 470px;
+}
+.yulduz9{
+    /* width: 25px;
+    height: 25px; */
+    top: 60px;
+    right: 550px;
+}
+.yulduz10{
+    /* width: 40px;
+    height: 40px; */
+    top: 100px;
+    right: 630px;
+}
+
+.box1{
+    width: 500px;
+    height: 500px;
+    background: blue;
+    transform: translatex(100px) translateY(400px) rotate(45deg);
+    
+}
+.qor1{
+    width: 100px;
+    height: 100px;
+    background: #eee;
+}
+.qor2{
+    width: 30px;
+    height: 50px;
+    background: #eee;
+    position: absolute;
+    top: 80px;
+}
+.qor3{
+    width: 50px;
+    height: 40px;
+    background: #eee;
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    transform: translateX(550px) translateY(-100px) rotate(45deg);
+    
+}
+.qor4{
+    width: 80px;
+    height: 80px;
+    background: #eee;
+}
+.qor5{
+    width: 30px;
+    height: 30px;
+    background: #eee;
+    position: absolute;
+    top: 70px;
+}
+.qor6{
+    width: 30px;
+    height: 30px;
+    background: #eee;
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+.box3{
+    width: 700px;
+    height: 500px;
+    background: blue;
+    transform: translatex(700px) translateY(-300px) rotate(45deg);
+   
+}
+.qor7{
+    width: 100px;
+    height: 100px;
+    background: #eee;
+}
+.qor8{
+    width: 30px;
+    height: 50px;
+    background: #eee;
+    position: absolute;
+    top: 80px;
+}
+.qor9{
+    width: 50px;
+    height: 40px;
+    background: #eee;
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+
+.sun{
+    width: 100px;
+    height: 100px;
+    background: #ff4800;
+    border-radius: 50%;
+    position: absolute;
+    top: 450px;
+    right: 550px;
+    z-index: -1;
+    animation: sun 10s ease infinite alternate forwards;
+    opacity: 0;
+}
+
+@keyframes con {
+    to{
+        background: rgb(154, 198, 235);
+    }
+}
+
+@keyframes sun {
+    to{
+        position: absolute;
+        top: 50px;
+        opacity: 1;
+        background: yellow;
+        
+    }
+}
+@keyframes bulut1 {
+    0%{
+        
+            
+            opacity: 0;
+        
+    }
+    20%{
+        
+           
+            opacity: 1; 
+        
+    }
+    40%{
+        
+         
+            opacity: 1; 
+        
+    }
+    60%{
+        
+            
+            opacity: 1; 
+        
+    }
+    80%{
+        
+            
+            opacity: 1; 
+        
+    }
+    100%{
+        
+            position: absolute;
+            top: 200px;
+            left: 1350px;
+            opacity: 1;
+        
+    }
+}
+@keyframes bulut2 {
+    0%{
+        
+            
+        opacity: 0;
+    
+}
+20%{
+    
+       
+        opacity: 1; 
+    
+}
+40%{
+    
+     
+        opacity: 1; 
+    
+}
+60%{
+    
+        
+        opacity: 1; 
+    
+}
+80%{
+    
+        
+        opacity: 1; 
+    
+}
+100%{
+    
+    position: absolute;
+        top: 230px;
+        right: 1400px;
+        opacity: 1;
+    
+}
+}
+    
+@keyframes bulut3 {
+    0%{
+        
+            
+        opacity: 0;
+    
+}
+20%{
+    
+       
+        opacity: 1; 
+    
+}
+40%{
+    
+     
+        opacity: 1; 
+    
+}
+60%{
+    
+        
+        opacity: 1; 
+    
+}
+80%{
+    
+        
+        opacity: 1; 
+    
+}
+100%{
+    
+    position: absolute;
+    top: 180px;
+    right: 1350px;
+    opacity: 1;
+    
+}
+}
+   
+
+@keyframes bulut4 {
+    0%{
+        
+            
+        opacity: 0;
+    
+}
+20%{
+    
+       
+        opacity: 1; 
+    
+}
+40%{
+    
+     
+        opacity: 1; 
+    
+}
+60%{
+    
+        
+        opacity: 1; 
+    
+}
+80%{
+    
+        
+        opacity: 1; 
+    
+}
+100%{
+    
+    position: absolute;
+        top: 100px;
+        left: 1350px;
+        opacity: 1;
+    
+}
+}
+    
+@keyframes yulduz {
+    0%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
